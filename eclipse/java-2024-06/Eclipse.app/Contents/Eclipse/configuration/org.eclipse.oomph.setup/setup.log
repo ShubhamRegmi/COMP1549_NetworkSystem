@@ -1,0 +1,114 @@
+[2024-07-09 11:34:25] Executing bootstrap tasks
+[2024-07-09 11:34:25] OpenJDK Runtime Environment 17.0.11+9
+[2024-07-09 11:34:25] Product org.eclipse.products.epp.package.java.2024-06
+[2024-07-09 11:34:25] Bundle org.eclipse.oomph.setup 1.29.0.v20240520-1504, build=606, branch=a943bade61cc9f456138d4af7f05fa7fde42835b
+[2024-07-09 11:34:25] Bundle org.eclipse.oomph.setup.core 1.31.0.v20240420-0837, build=606, branch=a943bade61cc9f456138d4af7f05fa7fde42835b
+[2024-07-09 11:34:25] Bundle org.eclipse.oomph.setup.p2 1.21.0.v20240420-0837, build=606, branch=a943bade61cc9f456138d4af7f05fa7fde42835b
+[2024-07-09 11:34:25] Performing P2 Director (Eclipse IDE for Java Developers (2024-06) + JRE 22.0.1)
+[2024-07-09 11:34:25] Offline = false
+[2024-07-09 11:34:25] Mirrors = true
+[2024-07-09 11:34:25] Resolving 27 requirements from 4 repositories to /Users/shubh/eclipse/java-2024-06/Eclipse.app/Contents/Eclipse
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux))(&(osgi.arch=aarch64)(osgi.os=macosx))(&(osgi.arch=ppc64le)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=win32))))
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.32.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.32.0,5.0.0)
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.32.0,5.0.0)
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.bcoview.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.activity.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.egit.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.git.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.github.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.ide.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jdt.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jenkins.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.reviews.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2024-07-09 11:34:25] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2024-07-09 11:34:25] Repository https://download.eclipse.org/justj/jres/22/updates/release/latest
+[2024-07-09 11:34:25] Repository https://download.eclipse.org/technology/epp/packages/2024-06/202406061200
+[2024-07-09 11:34:25] Repository https://download.eclipse.org/releases/2024-06/202406121000
+[2024-07-09 11:34:25] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2024-07-09 11:34:29] Calculating requirements and dependencies.
+[2024-07-09 11:34:31] Computing prerequisite plan
+[2024-07-09 11:34:34] Collecting 3 artifacts from https://download.eclipse.org/justj/jres/22/updates/release/latest
+[2024-07-09 11:34:35] Fetching org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_22.0.1.v20240426-1149.jar from https://ftp.fau.de/eclipse/justj/jres/22/updates/release/22.0.1/plugins/ (121.42MB)
+[2024-07-09 11:34:35] Fetching org.eclipse.justj.openjdk.hotspot.jre.full_22.0.1.v20240426-1149.jar from https://eclipse.mirror.liteserver.nl/justj/jres/22/updates/release/22.0.1/features/ (23.35kB)
+[2024-07-09 11:34:36] Fetching org.eclipse.justj.openjdk.hotspot.jre.full_22.0.1.v20240426-1149.jar from https://ftp.halifax.rwth-aachen.de/eclipse/justj/jres/22/updates/release/22.0.1/plugins/ (20.06kB)
+[2024-07-09 11:34:37] Fetching org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_22.0.1.v20240426-1149.jar from https://ftp.fau.de/eclipse/justj/jres/22/updates/release/22.0.1/plugins/
+[2024-07-09 11:36:51] Fetching org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_22.0.1.v20240426-1149.jar from https://eclipse.mirror.garr.it/justj/jres/22/updates/release/22.0.1/plugins/ (121.42MB)
+[2024-07-09 11:36:54] Fetching org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_22.0.1.v20240426-1149.jar from https://eclipse.mirror.garr.it/justj/jres/22/updates/release/22.0.1/plugins/
+[2024-07-09 11:38:49] Mirrored 1 artifacts from https://eclipse.mirror.liteserver.nl/justj/jres/22/updates/release/22.0.1/ at 45kb/s
+[2024-07-09 11:38:49] Mirrored 1 artifacts from https://ftp.halifax.rwth-aachen.de/eclipse/justj/jres/22/updates/release/22.0.1/ at 25kb/s
+[2024-07-09 11:38:49] Mirrored 1 artifacts from https://eclipse.mirror.garr.it/justj/jres/22/updates/release/22.0.1/ at 0kb/s with 1 failures
+[2024-07-09 11:38:49] Mirrored 1 artifacts from https://ftp.fau.de/eclipse/justj/jres/22/updates/release/22.0.1/ at 0kb/s with 1 failures
+[2024-07-09 11:38:49] Collected 3 artifacts for https://download.eclipse.org/justj/jres/22/updates/release/latest in 254.53s
+[2024-07-09 11:38:49] The engine operation was cancelled and the changes are being rolled back.
+[2024-07-09 11:38:49] 
+[2024-07-09 11:38:59] Executing bootstrap tasks
+[2024-07-09 11:38:59] OpenJDK Runtime Environment 17.0.11+9
+[2024-07-09 11:38:59] Product org.eclipse.products.epp.package.java.2024-06
+[2024-07-09 11:38:59] Bundle org.eclipse.oomph.setup 1.29.0.v20240520-1504, build=606, branch=a943bade61cc9f456138d4af7f05fa7fde42835b
+[2024-07-09 11:38:59] Bundle org.eclipse.oomph.setup.core 1.31.0.v20240420-0837, build=606, branch=a943bade61cc9f456138d4af7f05fa7fde42835b
+[2024-07-09 11:38:59] Bundle org.eclipse.oomph.setup.p2 1.21.0.v20240420-0837, build=606, branch=a943bade61cc9f456138d4af7f05fa7fde42835b
+[2024-07-09 11:38:59] Performing P2 Director (Eclipse IDE for Java Developers (2024-06) + JRE 22.0.1)
+[2024-07-09 11:38:59] Offline = false
+[2024-07-09 11:38:59] Mirrors = true
+[2024-07-09 11:38:59] Resolving 27 requirements from 4 repositories to /Users/shubh/eclipse/java-2024-06/Eclipse.app/Contents/Eclipse
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux))(&(osgi.arch=aarch64)(osgi.os=macosx))(&(osgi.arch=ppc64le)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=win32))))
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.32.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.32.0,5.0.0)
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.32.0,5.0.0)
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.bcoview.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.activity.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.egit.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.git.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.github.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.ide.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jdt.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jenkins.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.reviews.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2024-07-09 11:38:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2024-07-09 11:38:59] Repository https://download.eclipse.org/justj/jres/22/updates/release/latest
+[2024-07-09 11:38:59] Repository https://download.eclipse.org/technology/epp/packages/2024-06/202406061200
+[2024-07-09 11:38:59] Repository https://download.eclipse.org/releases/2024-06/202406121000
+[2024-07-09 11:38:59] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2024-07-09 11:39:33] java.lang.IllegalStateException: Attempt to access stopped agent: org.eclipse.equinox.internal.p2.core.ProvisioningAgent@1f712c38
+  at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.checkRunning(ProvisioningAgent.java:87)
+  at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.getService(ProvisioningAgent.java:51)
+  at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.ignoreExistingProfile(SimpleProfileRegistry.java:313)
+  at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:266)
+  at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+  at org.eclipse.oomph.p2.internal.core.AgentImpl.getCurrentProfile(AgentImpl.java:411)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:955)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3864)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3792)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3773)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3651)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1353)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1165)
+
+[2024-07-09 11:39:33] 
